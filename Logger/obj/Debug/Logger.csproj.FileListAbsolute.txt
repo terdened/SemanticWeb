@@ -1,0 +1,5 @@
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\bin\Debug\Logger.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\bin\Debug\Logger.pdb
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\obj\Debug\Logger.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\obj\Debug\Logger.pdb

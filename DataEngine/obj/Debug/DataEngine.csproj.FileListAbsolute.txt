@@ -1,0 +1,15 @@
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\DataEngine.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\DataEngine.pdb
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\dotNetRDF.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\dotNetRDF.Query.FullText.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\HtmlAgilityPack.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\Lucene.Net.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\Newtonsoft.Json.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\OpenLink.Data.Virtuoso.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\VDS.Common.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\obj\Debug\DataEngine.csprojResolveAssemblyReference.cache
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\obj\Debug\DataEngine.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\obj\Debug\DataEngine.pdb
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\Logger.dll
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\DataEngine\bin\Debug\Logger.pdb
