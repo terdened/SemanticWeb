@@ -1,0 +1,1 @@
+D:\Semantic web\OWL+SPARQL+DOTNET\UI\UI\bin\Debug\UI.exe.config
