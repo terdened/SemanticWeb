@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CBDD001-FF37-49FD-AD42-AD57565DC2EF}</ProjectGuid>
+    <ProjectGuid>{57E1DCC6-9798-4DB7-A0A7-5A016BC52527}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataEngine</RootNamespace>
-    <AssemblyName>DataEngine</AssemblyName>
+    <RootNamespace>Analyzer</RootNamespace>
+    <AssemblyName>Analyzer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,28 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dotNetRDF">
-      <HintPath>..\Resources\dotNetRDF.dll</HintPath>
-    </Reference>
-    <Reference Include="dotNetRDF.Data.Virtuoso">
-      <HintPath>..\Resources\dotNetRDF.Data.Virtuoso.dll</HintPath>
-    </Reference>
-    <Reference Include="dotNetRDF.Query.FullText">
-      <HintPath>..\Resources\dotNetRDF.Query.FullText.dll</HintPath>
-    </Reference>
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>..\Resources\HtmlAgilityPack.dll</HintPath>
-    </Reference>
-    <Reference Include="Lucene.Net">
-      <HintPath>..\Resources\Lucene.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Resources\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenLink.Data.Virtuoso">
-      <HintPath>..\Resources\OpenLink.Data.Virtuoso.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -59,20 +37,13 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="VDS.Common">
-      <HintPath>..\Resources\VDS.Common.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.cs" />
-    <Compile Include="Model\Situation.cs" />
+    <Compile Include="Analyzer.cs" />
+    <Compile Include="Hazard\Implementation\BaseHazard.cs" />
+    <Compile Include="Hazard\Implementation\ThoughtcrimeHazard.cs" />
+    <Compile Include="Hazard\Interface\IBaseHazard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Logger\Logger.csproj">
-      <Project>{fe552fd5-3123-4b7c-8d07-13caa89fdcc1}</Project>
-      <Name>Logger</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

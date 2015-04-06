@@ -20,7 +20,7 @@ namespace Logger
 
         public FileWriter()
         {
-            path = String.Format(@"C:\SemanticWebLogs\{0}\", DateTime.Now.ToShortDateString()).Replace('.',' ');
+            path = String.Format(@"C:\SemanticWebLogs\{0}\", DateTime.UtcNow.ToShortDateString()).Replace('/',' ');
             new FileInfo(path).Directory.Create();
             extention = ".log";
             filename = DateTime.Now.ToLongTimeString().Replace(':', ' ');

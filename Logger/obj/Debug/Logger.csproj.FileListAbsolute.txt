@@ -3,3 +3,7 @@ D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\bin\Debug\Logger.dll
 D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\bin\Debug\Logger.pdb
 D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\obj\Debug\Logger.dll
 D:\Semantic web\OWL+SPARQL+DOTNET\UI\Logger\obj\Debug\Logger.pdb
+C:\Users\terde\Desktop\Semantic Web\Logger\bin\Debug\Logger.dll
+C:\Users\terde\Desktop\Semantic Web\Logger\bin\Debug\Logger.pdb
+C:\Users\terde\Desktop\Semantic Web\Logger\obj\Debug\Logger.dll
+C:\Users\terde\Desktop\Semantic Web\Logger\obj\Debug\Logger.pdb

@@ -14,11 +14,8 @@ namespace UI
         {
             Logger.Logger logger = new Logger.Logger();
             var helloWorld = new DataEngine.HelloWorld(logger);
-            Console.WriteLine(helloWorld.SayHello());
-            Console.WriteLine("Input .RDF file path");
-            var path = Console.ReadLine();
-            var graph = helloWorld.ParseToGraph(path.ToString());
-            Console.WriteLine(helloWorld.GraphToString(graph));
+            var person = helloWorld.DescribePerson();
+            Console.WriteLine(helloWorld.GraphToString(person));
             Console.ReadLine();
         }
     }
