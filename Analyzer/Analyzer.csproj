@@ -45,6 +45,12 @@
     <Compile Include="Hazard\Interface\IBaseHazard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataEngine\DataEngine.csproj">
+      <Project>{9cbdd001-ff37-49fd-ad42-ad57565dc2ef}</Project>
+      <Name>DataEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

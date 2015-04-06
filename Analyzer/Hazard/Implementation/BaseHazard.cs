@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataEngine;
 
 namespace Analyzer
 {
@@ -10,6 +11,6 @@ namespace Analyzer
     {
         protected String query;
 
-        public abstract bool Test();
+        public abstract bool Test(DataCore dataCore);
     }
 }

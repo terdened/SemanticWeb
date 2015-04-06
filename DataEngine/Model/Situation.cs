@@ -10,7 +10,7 @@ using VDS.RDF.Query;
 
 namespace DataEngine.Model
 {
-    class Situation
+    public class Situation
     {
         #region private fields
         private const String defaultPath = @"c:\sws\situation.rdf";

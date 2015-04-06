@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataEngine;
 
 namespace Analyzer
 {
@@ -13,8 +14,9 @@ namespace Analyzer
             this.query = "Thoughtcrime is death";
         }
 
-        override public bool Test()
+        override public bool Test(DataCore dataCore)
         {
+            dataCore.ExecuteQuery(query);
             return true;
         }
     }
